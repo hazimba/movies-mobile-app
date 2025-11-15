@@ -9,7 +9,9 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text className="flex-1 flex flex-wrap text-center items-center justify-center h-screen text-2xl font-bold">
+        Welcome To My Movies App! test12
+      </Text>
     </View>
   );
 }
